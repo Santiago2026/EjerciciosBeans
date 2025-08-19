@@ -1,10 +1,12 @@
 package com.example.repository;
 import java.util.ArrayList;
 
+import org.springframework.stereotype.Repository;
+
 import com.example.model.Student;
 
 
-
+@Repository
 public class StudentRepository {
     
     private ArrayList<Student> students = new ArrayList<>();

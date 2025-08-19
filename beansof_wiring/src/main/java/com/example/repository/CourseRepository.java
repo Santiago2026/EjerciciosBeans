@@ -2,8 +2,12 @@ package com.example.repository;
 
 
 import java.util.ArrayList;
+
+import org.springframework.stereotype.Repository;
+
 import com.example.model.Course;
 
+@Repository
 public class CourseRepository {
     
     private ArrayList<Course> courses = new ArrayList<>();
